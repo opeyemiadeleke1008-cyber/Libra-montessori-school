@@ -1,0 +1,148 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(37, 37, 53);
+}
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+header {
+  background-color: rgb(37, 37, 53);
+  width: 100%;
+  /* margin-bottom: 100px; */
+  color: #fff;
+}
+header {
+  position: fixed;
+  z-index: 500;
+  top: 0;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.hero {
+  background-image: url(/asset/creche.jpg);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  align-content: center;
+}
+.hero h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  margin-left: 30px;
+}
+.hero p {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 70px;
+}
+.pre-school {
+  display: flex;
+  gap: 150px;
+  margin-top: 30px;
+  background-color: #fff;
+  padding-left: 150px;
+  margin-bottom: 50px;
+}
+.pre-school-1 {
+  width: 250px;
+  font-size: 20px;
+  /* padding-top: 200px; */
+}
+.pre-school-2 {
+  width: 500px;
+  border-left: 1px solid #000;
+  margin-left: 50px;
+}
+.pre-school-2 p {
+  margin-left: 50px;
+}
+.pre-school-2 h4 {
+  margin-left: 50px;
+}
+.pre-school-2 h2 {
+  margin-left: 50px;
+}
+.promi {
+  justify-items: center;
+  background-color: #f0ffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.promi p {
+  width: 600px;
+  font-style: oblique;
+  font-size: 20px;
+}
+.promi h5 {
+  font-size: 18px;
+  color: #2345de;
+}
+.promi h2 {
+  color: #2345de;
+}
+.promi h3 {
+  color: #2345de;
+}
+.image {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.image img {
+  height: 400px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.image-2 {
+  margin-top: 60px;
+}
+.image-3 {
+  margin-top: 60px;
+}
+.register {
+  display: flex;
+  gap: 50px;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* margin-bottom: 50px; */
+}
+.register img {
+  height: 400px;
+}
+.register ul {
+  font-size: 24px;
+}
+.register h3 {
+  font-size: 30px;
+}
+.register button {
+  padding: 10px 20px;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  background-color: #d2691e;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+.register button:hover {
+  background-color: #2345de;
+  transform: scale(1.1);
+}

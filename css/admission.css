@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(37, 37, 53);
+}
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+header {
+  background-color: rgb(37, 37, 53);
+  width: 100%;
+  /* margin-bottom: 100px; */
+  color: #fff;
+}
+header {
+  position: fixed;
+  z-index: 500;
+  top: 0;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
