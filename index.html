@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/index.css" />
     <title>LIBRA</title>
   </head>
@@ -10,9 +15,9 @@
     <header>
       <nav>
         <div>
-          <h1>Libra montessori school</h1>
+          <h1>LMS</h1>
         </div>
-        <div class="page">
+        <div>
           <ul>
             <li><a href="./index.html">HOME</a></li>
             <li><a href="./about-us.html">ABOUT-US</a></li>
@@ -24,6 +29,10 @@
             <li><a href="./admission.html">ADMISSION</a></li>
             <!-- <li><a href="./quiz.html">QUIZ</a></li> -->
           </ul>
+        </div>
+
+        <div id="menu-bar">
+          <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
     </header>
@@ -77,14 +86,21 @@
       <section class="prom">
         <div>
           <h3>We Promise The Best Future For Your Kids</h3>
-          <p style="width: 650px">
+          <p style="max-width: 650px; width: 100%">
             at <strong>Libra montessori school</strong>, The goal of our
             educational endeavor is to pursue excellent. Where pupils and
             students would be properly taught and given all round qualitative
             education....
           </p>
         </div>
-        <div style="display: flex; gap: 20px; justify-content: center">
+        <div
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+          "
+        >
           <p>
             <img
               src="./asset/student-in-lab-2.jpg"
@@ -100,7 +116,7 @@
               alt=""
               width="220px"
               height="400px"
-              style="border-radius: 50%; margin-top: 60px; object-fit: cover"
+              style="border-radius: 50%; object-fit: cover"
             />
           </p>
           <p>
@@ -109,7 +125,7 @@
               alt=""
               width="220px"
               height="400px"
-              style="border-radius: 50%; margin-top: 60px; object-fit: cover"
+              style="border-radius: 50%; object-fit: cover"
             />
           </p>
           <p>
@@ -143,77 +159,76 @@
       </section>
 
       <section class="forma">
-        <form
-          action="https://formspree.io/f/xgvndaeg"
-          method="post"
-          style="
-            background-color: aliceblue;
-            width: 50%;
-            padding: 40px 40px;
-            width: 60%;
-            justify-items: center;
-            margin-left: 250px;
-          "
-        >
-          <div>
-            <h3>GET IN TOUCH</h3>
-          </div>
-          <div style="display: flex; gap: 30px">
+        <div style="background-color: aquamarine; padding: 10px 30px">
+          <form
+            action="https://formspree.io/f/xgvndaeg"
+            method="post"
+            style="
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+            "
+          >
             <div>
-              <label for="firstName"> firstName </label>
-              <br />
-              <input
-                type="text"
-                name="firstName"
-                required
-                style="width: 250px; padding: 10px 10px"
-              />
+              <h3>GET IN TOUCH</h3>
             </div>
+            <div style="display: flex; gap: 10px">
+              <div>
+                <label for="firstName"> firstName </label>
+                <br />
+                <input
+                  type="text"
+                  name="firstName"
+                  required
+                  style="width: 250px; padding: 10px 10px"
+                />
+              </div>
+              <div>
+                <label for="lastName"> lastName </label>
+                <br />
+                <input
+                  type="text"
+                  name="lastName"
+                  required
+                  style="width: 250px; padding: 10px 10px"
+                />
+              </div>
+            </div>
+            <br />
+            <div style="display: flex; gap: 10px">
+              <div>
+                <label for="email">email</label>
+                <br />
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="example@gmail.com"
+                  style="width: 250px; padding: 10px 10px"
+                />
+              </div>
+              <div>
+                <label for="number">Phone Number</label>
+                <br />
+                <input type="text" name="number" required
+                placeholder="phoneNumber" style="width: 250px; padding: 10px
+                10px;"">
+              </div>
+            </div>
+            <br />
             <div>
-              <label for="lastName"> lastName </label>
-              <br />
-              <input
-                type="text"
-                name="lastName"
-                required
-                style="width: 250px; padding: 10px 10px"
-              />
+              <textarea
+                name="textArea"
+                placeholder="message..."
+                rows="4"
+                cols="40"
+              ></textarea>
             </div>
-          </div>
-          <br />
-          <div style="display: flex; gap: 30px">
-            <div>
-              <label for="email">email</label>
-              <br />
-              <input
-                type="email"
-                name="email"
-                required
-                placeholder="example@gmail.com"
-                style="width: 250px; padding: 10px 10px"
-              />
+            <div style="margin-top: 10px">
+              <button type="submit" style="padding: 10px">SUBMIT</button>
             </div>
-            <div>
-              <label for="number">Phone Number</label>
-              <br />
-              <input type="text" name="number" required
-              placeholder="phoneNumber" style="width: 250px; padding: 10px
-              10px;"">
-            </div>
-          </div>
-          <br />
-          <div>
-            <textarea
-              name="textArea"
-              placeholder="message..."
-              rows="4"
-              cols="40"
-            ></textarea>
-          </div>
-          <div style="padding-left: 3.5%; margin-top: 10px">
-            <button type="submit" style="padding: 10px">SUBMIT</button>
-          </div>
-        </form>
+          </form>
+        </div>
       </section>
 
       <section class="direc">
